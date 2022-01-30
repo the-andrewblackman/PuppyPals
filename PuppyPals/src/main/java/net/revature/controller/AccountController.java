@@ -38,7 +38,7 @@ public class AccountController {
 		return new ResponseEntity<Account>(this.accountService.findByUsername(username), HttpStatus.OK);
 	}
 	
-	@GetMapping(path = "/find/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+	@GetMapping(path = "/find/id={id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Account> findById(@PathVariable int id){
 		return new ResponseEntity<Account>(this.accountService.findById(id), HttpStatus.OK);
 	}
