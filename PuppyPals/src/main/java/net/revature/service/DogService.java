@@ -14,23 +14,23 @@ public class DogService {
 	@Autowired
 	private DogRepository dogRepository;
 	
-	void save(Dog dog) {
+	public void save(Dog dog) {
 		this.dogRepository.save(dog);
 	}
 	
-	Dog findById(int id) {
+	public Dog findById(int id) {
 		return this.dogRepository.findById(id);
 	}
 	
-	List<Dog> findAllByApiid(int api_id){
-		return this.dogRepository.findAllByApiid(api_id);
+	public Dog findByApiid(int api_id){
+		return this.dogRepository.findByApiid(api_id);
 	}
 	
-	List<Dog> findAll(){
+	public List<Dog> findAll(){
 		return this.dogRepository.findAll();
 	}
 	
-	void delete(Dog dog) {
+	public void delete(Dog dog) {
 		this.dogRepository.delete(dog);
 	}
 	

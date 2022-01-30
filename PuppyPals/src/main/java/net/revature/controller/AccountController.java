@@ -29,7 +29,7 @@ public class AccountController {
 	}
 	
 	@PostMapping(path = "/new", consumes = MediaType.APPLICATION_JSON_VALUE)
-	void save(@RequestBody Account account) {
+	public void save(@RequestBody Account account) {
 		this.accountService.save(account);
 	}
 	
@@ -38,5 +38,14 @@ public class AccountController {
 		return new ResponseEntity<Account>(this.accountService.findByUsername(username), HttpStatus.OK);
 	}
 	
+	@GetMapping(path = "/find/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Account> findById(@PathVariable int id){
+		return new ResponseEntity<Account>(this.accountService.findById(id), HttpStatus.OK);
+	}
+	
+	@PostMapping(path = "/delete", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void delete(@RequestBody Account account) {
+		this.accountService.delete(account);
+	}
 	
 }
