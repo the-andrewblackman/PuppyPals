@@ -1,4 +1,4 @@
-package revature.model;
+package net.revature.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,24 +14,31 @@ import lombok.NoArgsConstructor;
 
 @Entity
 
-@Table(name = "account")
+@Table(name = "dog")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Account {
+public class Dog {
 	@Id
 	@Column
-	@GeneratedValue(generator = "account_id_seq", strategy = GenerationType.AUTO)
-	@SequenceGenerator(allocationSize = 1, name = "account_id_seq")
+	@GeneratedValue(generator = "dog_id_seq", strategy = GenerationType.AUTO)
+	@SequenceGenerator(allocationSize = 1, name = "dog_id_seq")
 	private int id;
 	@Column
-	private String username;
+	private int apiid;
 	@Column
-	private String pass;
+	private int trainingtime;
 	@Column
-	private String first_name;
+	private String foodconsumption;
 	@Column
-	private String last_name;
+	private String exerciseroutine;
 	@Column
-	private String email;
+	private int energy;
+	@Column
+	private int friendliness;
+	@Column
+	private int affectionlevel;
+	@Column
+	private int shedding;
+	
 }

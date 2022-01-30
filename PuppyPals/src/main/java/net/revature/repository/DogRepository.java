@@ -1,11 +1,11 @@
-package revature.repository;
+package net.revature.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import revature.model.Dog;
+import net.revature.model.Dog;
 
 @Repository("dogRepository")
 public interface DogRepository extends JpaRepository<Dog, Integer>{
@@ -13,7 +13,7 @@ public interface DogRepository extends JpaRepository<Dog, Integer>{
 	
 	Dog findById(int id);
 	
-	List<Dog> findAllByApiId(int api_id);
+	List<Dog> findAllByApiid(int apiid);
 	
 	List<Dog> findAll();
 	
