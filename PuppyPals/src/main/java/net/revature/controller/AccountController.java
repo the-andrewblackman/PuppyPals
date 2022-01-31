@@ -23,6 +23,7 @@ public class AccountController {
 	@Autowired
 	private AccountService accountService;
 	
+	
 	@GetMapping(path = "/all", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<Account>> findAll(){
 		return new ResponseEntity<List<Account>>(this.accountService.findAll(), HttpStatus.OK);
