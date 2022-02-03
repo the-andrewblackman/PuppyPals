@@ -13,7 +13,7 @@ public interface DogRepository extends JpaRepository<Dog, Integer>{
 	
 	Dog findById(int id);
 	
-	Dog findByApiid(int apiid);
+	Dog findByApiid(String apiid);
 	
 	List<Dog> findAll();
 	

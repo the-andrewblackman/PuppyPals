@@ -19,4 +19,5 @@ public interface AccountRepository extends JpaRepository<Account, Integer>{
 	List<Account> findAll();
 	
 	void delete(Account account);
+	
 }

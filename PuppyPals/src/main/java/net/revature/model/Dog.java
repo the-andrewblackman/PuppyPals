@@ -25,7 +25,7 @@ public class Dog {
 	@SequenceGenerator(allocationSize = 1, name = "dog_id_seq")
 	private int id;
 	@Column
-	private int apiid;
+	private String apiid;
 	@Column
 	private int trainingtime;
 	@Column

@@ -22,8 +22,8 @@ public class DogService {
 		return this.dogRepository.findById(id);
 	}
 	
-	public Dog findByApiid(int api_id){
-		return this.dogRepository.findByApiid(api_id);
+	public Dog findByApiid(String id){
+		return this.dogRepository.findByApiid(id);
 	}
 	
 	public List<Dog> findAll(){
