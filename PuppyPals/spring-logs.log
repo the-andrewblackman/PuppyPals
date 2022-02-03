@@ -1865,3 +1865,20 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ap
 13:16:55.678 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 13:16:55.923 [http-nio-12345-exec-2] DEBUG aLogger - findDog() in the class net.revature.controller.DogAPIController was invoked
 13:16:55.923 [http-nio-12345-exec-2] DEBUG aLogger - findDog() in the class net.revature.controller.DogAPIController was invoked
+14:06:11.669 [Thread-27] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:06:11.677 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+14:06:11.679 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+14:06:11.820 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on DESKTOP-C9MCDP8 with PID 1524 (C:\Users\Administrator\PuppyPalsLocal\PuppyPals\PuppyPals\target\classes started by Administrator in C:\Users\Administrator\PuppyPalsLocal\PuppyPals\PuppyPals)
+14:06:11.820 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
+14:06:11.943 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:06:11.953 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+14:06:12.031 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 12345 (http)
+14:06:12.032 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-12345"]
+14:06:12.032 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:06:12.032 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:06:12.044 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:06:12.044 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 222 ms
+14:06:12.072 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+14:06:12.654 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+14:06:12.658 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:06:12.664 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
