@@ -28,4 +28,36 @@ public class Kennel {
 	private String dogname;
 	@Column
 	private int dogage;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getDogid() {
+		return dogid;
+	}
+	public void setDogid(int dogid) {
+		this.dogid = dogid;
+	}
+	public int getAccountid() {
+		return accountid;
+	}
+	public void setAccountid(int accountid) {
+		this.accountid = accountid;
+	}
+	public String getDogname() {
+		return dogname;
+	}
+	public void setDogname(String dogname) {
+		this.dogname = dogname;
+	}
+	public int getDogage() {
+		return dogage;
+	}
+	public void setDogage(int dogage) {
+		this.dogage = dogage;
+	}
+	
 }

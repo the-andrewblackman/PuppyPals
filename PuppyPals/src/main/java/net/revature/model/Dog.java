@@ -36,4 +36,60 @@ public class Dog {
 	private int affectionlevel;
 	@Column
 	private int shedding;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getApiid() {
+		return apiid;
+	}
+	public void setApiid(String apiid) {
+		this.apiid = apiid;
+	}
+	public int getTrainingtime() {
+		return trainingtime;
+	}
+	public void setTrainingtime(int trainingtime) {
+		this.trainingtime = trainingtime;
+	}
+	public String getFoodconsumption() {
+		return foodconsumption;
+	}
+	public void setFoodconsumption(String foodconsumption) {
+		this.foodconsumption = foodconsumption;
+	}
+	public String getExerciseroutine() {
+		return exerciseroutine;
+	}
+	public void setExerciseroutine(String exerciseroutine) {
+		this.exerciseroutine = exerciseroutine;
+	}
+	public int getEnergy() {
+		return energy;
+	}
+	public void setEnergy(int energy) {
+		this.energy = energy;
+	}
+	public int getFriendliness() {
+		return friendliness;
+	}
+	public void setFriendliness(int friendliness) {
+		this.friendliness = friendliness;
+	}
+	public int getAffectionlevel() {
+		return affectionlevel;
+	}
+	public void setAffectionlevel(int affectionlevel) {
+		this.affectionlevel = affectionlevel;
+	}
+	public int getShedding() {
+		return shedding;
+	}
+	public void setShedding(int shedding) {
+		this.shedding = shedding;
+	}
+	
 }

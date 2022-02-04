@@ -26,4 +26,23 @@ public class Favorite {
 	@Column
 	private int dogid;
 	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getAccountid() {
+		return accountid;
+	}
+	public void setAccountid(int accountid) {
+		this.accountid = accountid;
+	}
+	public int getDogid() {
+		return dogid;
+	}
+	public void setDogid(int dogid) {
+		this.dogid = dogid;
+	}
+	
 }
