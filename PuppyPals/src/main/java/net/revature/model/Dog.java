@@ -8,16 +8,12 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Entity
 
 @Table(name = "dog")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Dog {
 	@Id
 	@Column
@@ -40,5 +36,4 @@ public class Dog {
 	private int affectionlevel;
 	@Column
 	private int shedding;
-	
 }
