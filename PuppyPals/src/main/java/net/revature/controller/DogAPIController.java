@@ -17,7 +17,7 @@ public class DogAPIController {
 	@Autowired
 	private RestTemplate restTemplate;
 	
-	private HttpEntity<Object> headers = new HttpEntity<Object>("${api.key");
+	private HttpEntity<Object> headers = new HttpEntity<Object>("${api.key}");
 	
 	@GetMapping(path = "/dog/{breedname}")
 	public Object findDog(@PathVariable String breedname) {
