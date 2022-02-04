@@ -35,9 +35,9 @@ public class DogController {
 		return new ResponseEntity<Dog>(this.dogService.findById(id), HttpStatus.OK);
 	}
 	
-	@GetMapping(path = "find/api={apiid}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Dog> findByApiid(@PathVariable String id){
-		return new ResponseEntity<Dog>(this.dogService.findByApiid(id), HttpStatus.OK);
+	@GetMapping(path = "/find/api={apiid}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Dog> findByApiid(@PathVariable String apiid){
+		return new ResponseEntity<Dog>(this.dogService.findByApiid(apiid), HttpStatus.OK);
 	}
 	
 	@GetMapping(path = "/find/all", produces = MediaType.APPLICATION_JSON_VALUE)

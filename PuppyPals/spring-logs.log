@@ -2204,3 +2204,69 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ap
 14:29:24.545 [http-nio-12345-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 14:29:24.756 [http-nio-12345-exec-1] DEBUG aLogger - findByUsername() in the class net.revature.controller.AccountController was invoked
 14:29:24.756 [http-nio-12345-exec-1] DEBUG aLogger - findByUsername() in the class net.revature.controller.AccountController was invoked
+14:30:58.807 [http-nio-12345-exec-5] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+14:30:58.807 [http-nio-12345-exec-5] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+14:34:37.236 [http-nio-12345-exec-8] DEBUG aLogger - findById() in the class net.revature.controller.AccountController was invoked
+14:34:37.236 [http-nio-12345-exec-8] DEBUG aLogger - findById() in the class net.revature.controller.AccountController was invoked
+14:37:37.468 [http-nio-12345-exec-2] DEBUG aLogger - findAll() in the class net.revature.controller.DogController was invoked
+14:37:37.468 [http-nio-12345-exec-2] DEBUG aLogger - findAll() in the class net.revature.controller.DogController was invoked
+14:56:59.213 [http-nio-12345-exec-4] DEBUG aLogger - findAll() in the class net.revature.controller.DogAPIController was invoked
+14:56:59.213 [http-nio-12345-exec-4] DEBUG aLogger - findAll() in the class net.revature.controller.DogAPIController was invoked
+14:59:03.119 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:59:03.121 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:59:03.124 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:59:03.176 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on DESKTOP-C9MCDP8 with PID 8180 (C:\Users\Administrator\PuppyPalsLocal\PuppyPals\PuppyPals\target\classes started by Administrator in C:\Users\Administrator\PuppyPalsLocal\PuppyPals\PuppyPals)
+14:59:03.176 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
+14:59:03.305 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:59:03.317 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+14:59:03.389 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 12345 (http)
+14:59:03.390 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-12345"]
+14:59:03.390 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:59:03.390 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:59:03.412 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:59:03.412 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 234 ms
+14:59:03.439 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+14:59:04.231 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+14:59:04.234 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:59:04.238 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+14:59:04.392 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:59:04.392 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:59:04.503 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:59:04.591 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:59:04.598 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-12345"]
+14:59:04.599 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 12345 (http) with context path ''
+14:59:04.603 [restartedMain] INFO  net.revature.PuppyPalsApplication - Started PuppyPalsApplication in 1.451 seconds (JVM running for 1794.122)
+14:59:04.604 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+14:59:07.116 [http-nio-12345-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:59:07.117 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:59:07.117 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+14:59:46.697 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:59:46.698 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+14:59:46.704 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+14:59:46.771 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on DESKTOP-C9MCDP8 with PID 8180 (C:\Users\Administrator\PuppyPalsLocal\PuppyPals\PuppyPals\target\classes started by Administrator in C:\Users\Administrator\PuppyPalsLocal\PuppyPals\PuppyPals)
+14:59:46.771 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
+14:59:46.876 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:59:46.886 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+14:59:46.939 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 12345 (http)
+14:59:46.940 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-12345"]
+14:59:46.940 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:59:46.940 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:59:46.952 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:59:46.953 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 180 ms
+14:59:46.972 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+14:59:47.506 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+14:59:47.510 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:59:47.515 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+14:59:47.628 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:59:47.628 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:59:47.730 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:59:47.792 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:59:47.798 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-12345"]
+14:59:47.799 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 12345 (http) with context path ''
+14:59:47.803 [restartedMain] INFO  net.revature.PuppyPalsApplication - Started PuppyPalsApplication in 1.051 seconds (JVM running for 1837.322)
+14:59:47.804 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+14:59:51.163 [http-nio-12345-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:59:51.163 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:59:51.164 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:00:36.845 [http-nio-12345-exec-5] DEBUG aLogger - findByApiid() in the class net.revature.controller.DogController was invoked
+15:00:36.845 [http-nio-12345-exec-5] DEBUG aLogger - findByApiid() in the class net.revature.controller.DogController was invoked
