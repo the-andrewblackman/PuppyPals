@@ -9,8 +9,6 @@ import net.revature.model.Kennel;
 
 @Repository("kennelRepository")
 public interface KennelRepository extends JpaRepository<Kennel, Integer>{
-
-	<S extends Kennel> S save(Kennel kennel);
 	
 	Kennel findById(int id);
 	

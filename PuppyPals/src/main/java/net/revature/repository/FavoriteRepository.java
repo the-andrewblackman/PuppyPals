@@ -10,8 +10,6 @@ import net.revature.model.Favorite;
 @Repository("favoriteRepository")
 public interface FavoriteRepository extends JpaRepository<Favorite, Integer>{
 	
-	<S extends Favorite> S save(Favorite favorite);
-	
 	List<Favorite> findAllByAccountid(int id);
 	
 	void delete(Favorite favorite);
