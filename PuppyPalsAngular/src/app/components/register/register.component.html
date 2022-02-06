@@ -1,0 +1,39 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+      <mat-card-header>
+        <mat-card-title>Register</mat-card-title>
+      </mat-card-header>
+  
+      <form [formGroup]="reactiveForm" (ngSubmit)="register()">
+  
+        <mat-card-content>
+          <mat-form-field class="example-full-width">
+            <input type="text" [(ngModel)]="userObj.username" name="username" matInput placeholder="Username" required>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width">
+            <input type="password" [(ngModel)]="userObj.pass" name="pass"matInput placeholder="Password" required>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width">
+            <input formControlName="firstname" type="text" [(ngModel)]="userObj.firstname" name="firstname"matInput placeholder="First Name" required>
+          </mat-form-field>
+          <div class="err" *ngIf="reactiveForm.get('firstname').touched && reactiveForm.get('firstname').invalid">
+              *Nmae is required
+            </div>
+          <mat-form-field class="example-full-width">
+            <input type="text" fromControlName="lastname"[(ngModel)]="userObj.lastname" name="lastname"matInput placeholder="Last Name" required>
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input type="email" [(ngModel)]="userObj.email" name="email" matInput placeholder="Email" required>
+          </mat-form-field>
+
+  
+        </mat-card-content>
+  
+        <button type="submit" mat-stroked-button color="accent" class="btn-block">Register</button>
+  
+      </form>
+    </mat-card>
+  </div>
