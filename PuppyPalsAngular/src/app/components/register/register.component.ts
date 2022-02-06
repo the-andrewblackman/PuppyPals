@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import { FormGroup, FormControl, Validators, FormGroupName } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { from } from 'rxjs';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -8,19 +10,40 @@ import { Component, OnInit } from '@angular/core';
 export class RegisterComponent implements OnInit {
 
 
-  Roles: any = ['Admin', 'Author', 'Reader'];
-
   
   constructor() { }
 
-  ngOnInit(): void {
-    this.register()
+  ngOnInit() {
+   this.reactiveForm = new FormGroup({
+    "firstname": new FormGroup(null, [Validators.required])
+   })
   }
 
+  
+
   userObj={
-    
+
+    username:'',
+    pass:'',
+    firstname:'',
+    lastname:'',
+    email:''
+
   }
+  
+
+  tempObj:any
+
+  /*ReactiveForm*/
+  reactiveForm:FormGroup
+
+  
+  
   public register(): void {
     
   }
+
+ 
+
+
 }
