@@ -14,36 +14,12 @@ export class RegisterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-   this.reactiveForm = new FormGroup({
-    "firstname": new FormGroup(null, [Validators.required])
-   })
-  }
-
-  
-
-  userObj={
-
-    username:'',
-    pass:'',
-    firstname:'',
-    lastname:'',
-    email:''
-
-  }
-  
-
-  tempObj:any
-
-  /*ReactiveForm*/
-  reactiveForm:FormGroup
-
-  
-  
-  public register(): void {
     
   }
-
  
+
+  
+
 
 
 }

@@ -13,16 +13,29 @@ import { HttpClientModule } from '@angular/common/http';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 import { FormGroup, FormControl } from '@angular/forms';
 import { from } from 'rxjs';
+import { RouterModule, Routes } from '@angular/router';
+import { AppService } from './app.service';
+import { HomeComponent } from './components/home/home.component';
 
+
+
+
+const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'home'},
+  { path: 'register', component: RegisterComponent},
+  { path: 'login', component: LogInComponent}
+];
 @NgModule({
   declarations: [
     AppComponent,
     LogInComponent,
     RegisterComponent,
     RegisterComponent,
-    LogInComponent
+    LogInComponent,
+    
   ],
   imports: [
+    RouterModule.forRoot(routes),
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -33,9 +46,7 @@ import { from } from 'rxjs';
     HttpClientModule
     
   ],
-  providers: [
-    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
-  ],
+  providers: [AppService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
