@@ -3,11 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
 import { KennelComponent } from './components/kennel/kennel.component';
 import { FavoritesComponent } from './components/favorites/favorites.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavComponent } from './components/nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -20,17 +17,20 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { LoginComponent } from './components/login/login.component';
 import { PuppyCardComponent } from './components/puppy-card/puppy-card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './components/home/home.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     KennelComponent,
     FavoritesComponent,
-    NavComponent,
     DashComponent,
     LoginComponent,
-    PuppyCardComponent
+    PuppyCardComponent,
+    HomeComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

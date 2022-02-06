@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-puppy-card',
+  selector: 'puppy-card',
   templateUrl: './puppy-card.component.html',
   styleUrls: ['./puppy-card.component.css']
 })
@@ -11,5 +12,10 @@ export class PuppyCardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  // inherts dog from the *ngFor="let dog of findDogByBreedNameInput" on main component
+  @Input()
+  // any is your model type
+  dog:any
 
 }
