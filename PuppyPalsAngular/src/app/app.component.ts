@@ -19,7 +19,7 @@ logout() {
   this.http.post('logout', {}).pipe(
     finalize(() => {
         this.app.authenticated = false;
-        this.router.navigateByUrl('/home');
+        this.router.navigateByUrl('/login');
     })).subscribe();
 }
 }
