@@ -4962,37 +4962,3 @@ java.lang.Error: Unresolved compilation problem:
 19:07:25.160 [http-nio-12345-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 19:07:25.161 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 19:07:25.163 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-19:29:17.871 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-19:29:17.919 [RMI TCP Connection(32)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-19:29:17.923 [RMI TCP Connection(32)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-19:29:17.937 [RMI TCP Connection(32)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-19:42:53.283 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on B-Dub-Xotic with PID 1980 (C:\Users\btwom\Documents\GitHub\PuppyPals\PuppyPals\PuppyPals-dev\PuppyPals\target\classes started by btwom in C:\Users\btwom\Documents\GitHub\PuppyPals\PuppyPals\PuppyPals-dev\PuppyPals)
-19:42:53.286 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
-19:42:53.367 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-19:42:53.367 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-19:42:54.013 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-19:42:54.077 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
-19:42:55.172 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 12345 (http)
-19:42:55.184 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-12345"]
-19:42:55.184 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-19:42:55.184 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
-19:42:55.291 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-19:42:55.292 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1924 ms
-19:42:55.514 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-19:42:56.899 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-19:42:56.954 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-19:42:57.013 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
-19:42:57.205 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-19:42:57.362 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-19:42:58.128 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-19:42:58.139 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-19:42:58.793 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-19:42:58.983 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28cdb07, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e00f078, org.springframework.security.web.header.HeaderWriterFilter@452dfada, org.springframework.security.web.csrf.CsrfFilter@6713552e, org.springframework.security.web.authentication.logout.LogoutFilter@60bc650b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f29d93f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52ced5ec, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6dc3e192, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@540f2f17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29fa5a42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71504ecf, org.springframework.security.web.session.SessionManagementFilter@67daa0fc, org.springframework.security.web.access.ExceptionTranslationFilter@15005f03, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c4ee563]
-19:42:59.307 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-19:42:59.417 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-19:42:59.451 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-12345"]
-19:42:59.479 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 12345 (http) with context path ''
-19:42:59.494 [restartedMain] INFO  net.revature.PuppyPalsApplication - Started PuppyPalsApplication in 6.624 seconds (JVM running for 8.011)
-19:43:06.865 [http-nio-12345-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-19:43:06.866 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-19:43:06.867 [http-nio-12345-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

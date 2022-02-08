@@ -18,7 +18,7 @@ public class KennelService {
 		this.kennelRepository.save(kennel);
 	}
 	
-	public Kennel findById(int id) {
+	public List<Kennel> findById(int id) {
 		return this.kennelRepository.findById(id);
 	}
 	

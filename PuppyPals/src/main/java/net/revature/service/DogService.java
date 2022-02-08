@@ -18,7 +18,7 @@ public class DogService {
 		this.dogRepository.save(dog);
 	}
 	
-	public Dog findById(int id) {
+	public List<Dog> findById(int id) {
 		return this.dogRepository.findById(id);
 	}
 	
