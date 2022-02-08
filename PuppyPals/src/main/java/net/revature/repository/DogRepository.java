@@ -10,7 +10,7 @@ import net.revature.model.Dog;
 @Repository("dogRepository")
 public interface DogRepository extends JpaRepository<Dog, Integer>{
 	
-	Dog findById(int id);
+	List<Dog> findById(int id);
 	
 	Dog findByApiid(String apiid);
 	

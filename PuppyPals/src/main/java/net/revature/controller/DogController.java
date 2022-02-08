@@ -31,8 +31,8 @@ public class DogController {
 	}
 	
 	@GetMapping(path = "/find/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Dog> findById(@PathVariable int id){
-		return new ResponseEntity<Dog>(this.dogService.findById(id), HttpStatus.OK);
+	public ResponseEntity<List<Dog>> findById(@PathVariable int id){
+		return new ResponseEntity<List<Dog>>(this.dogService.findById(id), HttpStatus.OK);
 	}
 	
 	@GetMapping(path = "/find/api={apiid}", produces = MediaType.APPLICATION_JSON_VALUE)
