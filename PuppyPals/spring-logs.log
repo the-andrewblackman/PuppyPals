@@ -5133,3 +5133,142 @@ org.postgresql.util.PSQLException: ERROR: insert or update on table "favorite" v
 15:35:34.350 [http-nio-12345-exec-2] DEBUG aLogger - findById() in the class net.revature.controller.KennelController was invoked
 15:52:41.342 [http-nio-12345-exec-6] DEBUG aLogger - findByUsername() in the class net.revature.controller.AccountController was invoked
 15:52:41.342 [http-nio-12345-exec-6] DEBUG aLogger - findByUsername() in the class net.revature.controller.AccountController was invoked
+16:34:46.999 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on DESKTOP-LTEQ84V with PID 11332 (C:\Users\Owner\Documents\revature notes\project2Team\PuppyPals\target\classes started by Owner in C:\Users\Owner\Documents\revature notes\project2Team\PuppyPals)
+16:34:47.002 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
+16:34:47.099 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:34:47.100 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:34:48.366 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:34:48.495 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 4 JPA repository interfaces.
+16:34:49.975 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 12345 (http)
+16:34:49.996 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-12345"]
+16:34:49.996 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:34:49.997 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:34:50.158 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:34:50.158 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3057 ms
+16:34:50.476 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:34:51.923 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:34:52.032 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:34:52.128 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+16:34:52.521 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:34:52.852 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+16:34:54.233 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:34:54.250 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:34:55.190 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:34:55.802 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:34:55.821 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-12345"]
+16:34:55.850 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 12345 (http) with context path ''
+16:34:55.874 [restartedMain] INFO  net.revature.PuppyPalsApplication - Started PuppyPalsApplication in 9.46 seconds (JVM running for 10.613)
+16:35:09.050 [http-nio-12345-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:35:09.051 [http-nio-12345-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:35:09.053 [http-nio-12345-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:35:09.674 [http-nio-12345-exec-1] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:35:09.674 [http-nio-12345-exec-1] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:35:09.967 [http-nio-12345-exec-3] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:35:09.967 [http-nio-12345-exec-3] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:35:10.017 [http-nio-12345-exec-2] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:35:10.017 [http-nio-12345-exec-4] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:35:10.017 [http-nio-12345-exec-2] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:35:10.017 [http-nio-12345-exec-4] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:36:28.012 [http-nio-12345-exec-8] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:36:28.012 [http-nio-12345-exec-8] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:36:28.893 [http-nio-12345-exec-9] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:36:28.893 [http-nio-12345-exec-9] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:36:28.938 [http-nio-12345-exec-10] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:36:28.938 [http-nio-12345-exec-10] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:36:28.942 [http-nio-12345-exec-1] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:36:28.942 [http-nio-12345-exec-1] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.272 [http-nio-12345-exec-5] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:42:08.272 [http-nio-12345-exec-5] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:42:08.458 [http-nio-12345-exec-6] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.458 [http-nio-12345-exec-6] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.539 [http-nio-12345-exec-7] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.539 [http-nio-12345-exec-7] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.539 [http-nio-12345-exec-8] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.539 [http-nio-12345-exec-8] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.773 [http-nio-12345-exec-1] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.773 [http-nio-12345-exec-1] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.775 [http-nio-12345-exec-10] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.775 [http-nio-12345-exec-9] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.775 [http-nio-12345-exec-10] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:42:08.775 [http-nio-12345-exec-9] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:49.638 [http-nio-12345-exec-5] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:43:49.638 [http-nio-12345-exec-5] DEBUG aLogger - findAllByAccountid() in the class net.revature.controller.FavoriteController was invoked
+16:43:49.818 [http-nio-12345-exec-6] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:49.818 [http-nio-12345-exec-6] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:49.886 [http-nio-12345-exec-7] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:49.886 [http-nio-12345-exec-7] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:49.886 [http-nio-12345-exec-8] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:49.886 [http-nio-12345-exec-8] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:50.147 [http-nio-12345-exec-10] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:50.147 [http-nio-12345-exec-1] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:50.147 [http-nio-12345-exec-10] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:50.147 [http-nio-12345-exec-1] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:50.152 [http-nio-12345-exec-9] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:43:50.152 [http-nio-12345-exec-9] DEBUG aLogger - findById() in the class net.revature.controller.DogController was invoked
+16:56:46.006 [http-nio-12345-exec-6] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+16:56:46.006 [http-nio-12345-exec-6] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+17:15:52.872 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on DESKTOP-LTEQ84V with PID 11332 (C:\Users\Owner\Documents\revature notes\project2Team\PuppyPals\target\classes started by Owner in C:\Users\Owner\Documents\revature notes\project2Team\PuppyPals)
+17:15:52.879 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
+17:15:53.034 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:15:53.043 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:15:55.291 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:15:55.541 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 211 ms. Found 4 JPA repository interfaces.
+17:15:57.975 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 12345 (http)
+17:15:58.016 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-12345"]
+17:15:58.017 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:15:58.018 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:15:58.335 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:15:58.346 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5295 ms
+17:15:59.475 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:16:01.178 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:16:01.303 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:16:01.487 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+17:16:01.971 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:16:02.423 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+17:16:04.192 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:16:04.231 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:16:06.318 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:16:07.612 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+17:16:07.665 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-12345"]
+17:16:07.733 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 12345 (http) with context path ''
+17:16:07.771 [restartedMain] INFO  net.revature.PuppyPalsApplication - Started PuppyPalsApplication in 15.987 seconds (JVM running for 20.785)
+17:16:34.383 [http-nio-12345-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:16:34.383 [http-nio-12345-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:16:34.385 [http-nio-12345-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+17:16:35.218 [http-nio-12345-exec-1] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+17:16:35.218 [http-nio-12345-exec-1] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+17:17:48.389 [http-nio-12345-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+17:18:02.464 [http-nio-12345-exec-6] DEBUG aLogger - save() in the class net.revature.controller.AccountController was invoked
+17:18:02.464 [http-nio-12345-exec-6] DEBUG aLogger - save() in the class net.revature.controller.AccountController was invoked
+17:18:18.648 [http-nio-12345-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+17:18:23.880 [http-nio-12345-exec-8] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+17:18:23.880 [http-nio-12345-exec-8] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+17:19:43.538 [http-nio-12345-exec-2] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+17:19:43.538 [http-nio-12345-exec-2] DEBUG aLogger - findAll() in the class net.revature.controller.AccountController was invoked
+18:50:52.753 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m51s285ms717µs100ns).
+19:20:55.600 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s649ms902µs800ns).
+19:40:43.091 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:40:43.104 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:40:43.167 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:40:43.493 [restartedMain] INFO  net.revature.PuppyPalsApplication - Starting PuppyPalsApplication using Java 17 on DESKTOP-LTEQ84V with PID 11332 (C:\Users\Owner\Documents\revature notes\project2Team\PuppyPals\target\classes started by Owner in C:\Users\Owner\Documents\revature notes\project2Team\PuppyPals)
+19:40:43.493 [restartedMain] INFO  net.revature.PuppyPalsApplication - No active profile set, falling back to default profiles: default
+19:40:43.926 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:40:43.962 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+19:40:44.218 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:40:44.226 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:40:44.227 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:40:44.227 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+19:40:44.305 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:40:44.305 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 805 ms
+19:40:44.424 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+19:40:45.650 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+19:40:45.667 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:40:45.694 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+19:40:45.934 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:40:45.935 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:40:46.316 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:40:46.527 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:40:46.549 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:40:46.554 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:40:46.560 [restartedMain] INFO  net.revature.PuppyPalsApplication - Started PuppyPalsApplication in 3.251 seconds (JVM running for 8699.597)
+19:40:46.562 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
