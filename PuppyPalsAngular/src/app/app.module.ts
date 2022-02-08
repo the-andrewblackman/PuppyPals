@@ -30,8 +30,8 @@ const routes: Routes = [
     AppComponent,
     LogInComponent,
     RegisterComponent,
-    RegisterComponent,
     LogInComponent,
+    
     
   ],
   imports: [
@@ -43,8 +43,8 @@ const routes: Routes = [
     FlexLayoutModule,
     FormsModule, 
     ReactiveFormsModule, 
-    HttpClientModule
-    
+    HttpClientModule,
+  
   ],
   providers: [AppService],
   bootstrap: [AppComponent],
