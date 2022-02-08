@@ -10,7 +10,7 @@ import net.revature.model.Kennel;
 @Repository("kennelRepository")
 public interface KennelRepository extends JpaRepository<Kennel, Integer>{
 	
-	Kennel findById(int id);
+	List<Kennel> findById(int id);
 	
 	List<Kennel> findAllByAccountid(int accountid);
 	

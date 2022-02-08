@@ -31,8 +31,8 @@ public class KennelController {
 	}
 	
 	@GetMapping(path = "/find/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Kennel> findById(@PathVariable int id){
-		return new ResponseEntity<Kennel>(this.kennelService.findById(id), HttpStatus.OK);
+	public ResponseEntity<List<Kennel>> findById(@PathVariable int id){
+		return new ResponseEntity<List<Kennel>>(this.kennelService.findById(id), HttpStatus.OK);
 	}
 	
 	@GetMapping(path = "/findByAccount/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
