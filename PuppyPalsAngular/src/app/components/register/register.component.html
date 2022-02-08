@@ -1,0 +1,37 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+      <mat-card-header>
+        <mat-card-title>Register</mat-card-title>
+      </mat-card-header>
+  
+      <form>
+  
+        <mat-card-content>
+          <mat-form-field class="example-full-width">
+            <input type="text"  name="username" matInput placeholder="Username" required>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width">
+            <input type="password"  name="pass"matInput placeholder="Password" required>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width">
+            <input type="text"  name="firstname"matInput placeholder="First Name" required>
+          </mat-form-field>
+          
+          <mat-form-field class="example-full-width">
+            <input type="text"  name="lastname"matInput placeholder="Last Name" required>
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <input type="email"  name="email" matInput placeholder="Email" required>
+          </mat-form-field>
+
+  
+        </mat-card-content>
+  
+        <button type="submit" (click)="createUser()" mat-stroked-button color="accent" class="btn-block">Register</button>
+  
+      </form>
+    </mat-card>
+  </div>
